@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste banco de dados</title>
+    <link rel="stylesheet" href="./css.css">
+</head>
+<body>
+  
+
+
+<div class="card">
+
+<input type="text" name="" id="inpt" class="inpts" >
+
+<input type="text" name="" id="inpt-idade" class="inpts">
+<br>
+<button id="btn">Enviar</button>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <script type="module">
+          
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-app.js";
+        import { getFirestore, collection, addDoc, getDocs, doc, deleteDoc, updateDoc } 
+        from "https://www.gstatic.com/firebasejs/10.13.2/firebase-firestore.js";
+       
+        //configuração do FireBase
+        const firebaseConfig = {
+          apiKey: "AIzaSyAGiqCwHaKg3mgem0SNFxQvbTQ289WaVbc",
+          authDomain: "alidu-c1446.firebaseapp.com",
+          databaseURL: "https://alidu-c1446-default-rtdb.firebaseio.com/alunos.json",
+          projectId: "alidu-c1446",
+          storageBucket: "alidu-c1446.appspot.com",
+          messagingSenderId: "28746919815",
+          appId: "1:28746919815:web:18348c5e935988b64e6d22"
+        };
+    </script>
+    <script src="./js.js"></script>
+</body>
+</html>
